@@ -7,4 +7,26 @@
     android:layout_height="match_parent"
     tools:context=".Dashboard">
 
+
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/botton_menu"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navGraph=""
+        />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/botton_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/botton_navigation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/azul_claro"
+        app:itemTextColor="@color/white"
+        app:itemIconTint="@color/white"
+        app:itemTextAppearanceActive="@color/rosa_claro"
+        app:itemActiveIndicatorStyle="@color/rosa_claro"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

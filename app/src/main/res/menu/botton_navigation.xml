@@ -18,8 +18,15 @@
     <item
         android:id="@+id/profissinais_menu"
         android:enabled="true"
-        android:icon="@drawable/baseline_dashboard_24"
-        android:title="Profissionais"
+        android:icon="@drawable/baseline_add_location_24"
+        android:title="Encontrar"
+        />
+
+    <item
+        android:id="@+id/app_menu"
+        android:enabled="true"
+        android:icon="@drawable/outline_apps_24"
+        android:title="Encontrar"
         />
 
 </menu>
